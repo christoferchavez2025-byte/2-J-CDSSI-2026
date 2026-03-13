@@ -1,0 +1,20 @@
+# Nombre: Christofer Alberto Chavez Ceja
+# Grupo: 2J
+l1=[];l2=[];l3=[];n=int(input("Cuantos numeros: "))
+for i in range(n): l1.append(int(input("Lista1: ")))
+for i in range(n): l2.append(int(input("Lista2: ")))
+for i in range(n): l3.append(int(input("Lista3: ")))
+for a in l1:
+    for b in l2:
+        for c in l3:
+            if a+b+c==0: print(a,b,c)
+# Resultado
+# Cuantos numeros: 2
+# Lista1: -1
+# Lista1: 2
+# Lista2: 1
+# Lista2: -2
+# Lista3: 0
+# Lista3: 3
+# -1 1 0
+# 2 -2 0
